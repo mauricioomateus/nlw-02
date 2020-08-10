@@ -77,7 +77,7 @@ function pageGiveClasses(req, res){
 
         //add data in proffys list
         proffys.push(data)
-
+ 
         return res.redirect("/study")
     }
 
